@@ -1,0 +1,7 @@
+a = raw_input("")
+a = list(a)
+for i, ele in enumerate(a):
+   if i % 2 !=0:
+       a[i] = ele.upper()
+
+print("".join(a))
